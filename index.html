@@ -11,8 +11,10 @@
     </style>
   </head>
   <body>
-    <div tabindex="0">hello</div>
-    <blog-post></blog-post>
-    <script src="app.js"></script>
+    <blog-post>
+      <h3 slot="title">my blog title</h3>
+      <a slot="link" href="">click here for more</a>
+    </blog-post>
+    <script src="app.js" type="module"></script>
   </body>
 </html>
